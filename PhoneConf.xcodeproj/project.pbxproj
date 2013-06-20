@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C99F5617729DDB0057D740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C99F5517729DDB0057D740 /* UIKit.framework */; };
+		45C99F5817729DDB0057D740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C99F5717729DDB0057D740 /* Foundation.framework */; };
+		45C99F5A17729DDB0057D740 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C99F5917729DDB0057D740 /* CoreGraphics.framework */; };
+		45C99F6017729DDB0057D740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45C99F5E17729DDB0057D740 /* InfoPlist.strings */; };
+		45C99F6217729DDB0057D740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C99F6117729DDB0057D740 /* main.m */; };
+		45C99F6617729DDB0057D740 /* PhoneConfAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C99F6517729DDB0057D740 /* PhoneConfAppDelegate.m */; };
+		45C99F6917729DDB0057D740 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C99F6717729DDB0057D740 /* MainWindow.xib */; };
+		45C99F6C17729DDB0057D740 /* PhoneConfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C99F6B17729DDB0057D740 /* PhoneConfViewController.m */; };
+		45C99F6F17729DDB0057D740 /* PhoneConfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C99F6D17729DDB0057D740 /* PhoneConfViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45C99F5117729DDB0057D740 /* PhoneConf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneConf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C99F5517729DDB0057D740 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45C99F5717729DDB0057D740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45C99F5917729DDB0057D740 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45C99F5D17729DDB0057D740 /* PhoneConf-Info.plist */ = {isa = PBXFileReference; path = "PhoneConf-Info.plist"; sourceTree = "<group>"; };
+		45C99F5F17729DDB0057D740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45C99F6117729DDB0057D740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45C99F6317729DDB0057D740 /* PhoneConf-Prefix.pch */ = {isa = PBXFileReference; path = "PhoneConf-Prefix.pch"; sourceTree = "<group>"; };
+		45C99F6417729DDB0057D740 /* PhoneConfAppDelegate.h */ = {isa = PBXFileReference; path = PhoneConfAppDelegate.h; sourceTree = "<group>"; };
+		45C99F6517729DDB0057D740 /* PhoneConfAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneConfAppDelegate.m; sourceTree = "<group>"; };
+		45C99F6817729DDB0057D740 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		45C99F6A17729DDB0057D740 /* PhoneConfViewController.h */ = {isa = PBXFileReference; path = PhoneConfViewController.h; sourceTree = "<group>"; };
+		45C99F6B17729DDB0057D740 /* PhoneConfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneConfViewController.m; sourceTree = "<group>"; };
+		45C99F6E17729DDB0057D740 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhoneConfViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C99F4E17729DDB0057D740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C99F5617729DDB0057D740 /* UIKit.framework in Frameworks */,
+				45C99F5817729DDB0057D740 /* Foundation.framework in Frameworks */,
+				45C99F5A17729DDB0057D740 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C99F4617729DDA0057D740 = {
+			isa = PBXGroup;
+			children = (
+				45C99F5B17729DDB0057D740 /* PhoneConf */,
+				45C99F5417729DDB0057D740 /* Frameworks */,
+				45C99F5217729DDB0057D740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C99F5217729DDB0057D740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C99F5117729DDB0057D740 /* PhoneConf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C99F5417729DDB0057D740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45C99F5517729DDB0057D740 /* UIKit.framework */,
+				45C99F5717729DDB0057D740 /* Foundation.framework */,
+				45C99F5917729DDB0057D740 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45C99F5B17729DDB0057D740 /* PhoneConf */ = {
+			isa = PBXGroup;
+			children = (
+				45C99F6417729DDB0057D740 /* PhoneConfAppDelegate.h */,
+				45C99F6517729DDB0057D740 /* PhoneConfAppDelegate.m */,
+				45C99F6717729DDB0057D740 /* MainWindow.xib */,
+				45C99F6A17729DDB0057D740 /* PhoneConfViewController.h */,
+				45C99F6B17729DDB0057D740 /* PhoneConfViewController.m */,
+				45C99F6D17729DDB0057D740 /* PhoneConfViewController.xib */,
+				45C99F5C17729DDB0057D740 /* Supporting Files */,
+			);
+			path = PhoneConf;
+			sourceTree = "<group>";
+		};
+		45C99F5C17729DDB0057D740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C99F5D17729DDB0057D740 /* PhoneConf-Info.plist */,
+				45C99F5E17729DDB0057D740 /* InfoPlist.strings */,
+				45C99F6117729DDB0057D740 /* main.m */,
+				45C99F6317729DDB0057D740 /* PhoneConf-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C99F5017729DDB0057D740 /* PhoneConf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C99F7217729DDB0057D740 /* Build configuration list for PBXNativeTarget "PhoneConf" */;
+			buildPhases = (
+				45C99F4D17729DDB0057D740 /* Sources */,
+				45C99F4E17729DDB0057D740 /* Frameworks */,
+				45C99F4F17729DDB0057D740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneConf;
+			productName = PhoneConf;
+			productReference = 45C99F5117729DDB0057D740 /* PhoneConf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C99F4817729DDA0057D740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = eting;
+			};
+			buildConfigurationList = 45C99F4B17729DDA0057D740 /* Build configuration list for PBXProject "PhoneConf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45C99F4617729DDA0057D740;
+			productRefGroup = 45C99F5217729DDB0057D740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C99F5017729DDB0057D740 /* PhoneConf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C99F4F17729DDB0057D740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C99F6017729DDB0057D740 /* InfoPlist.strings in Resources */,
+				45C99F6917729DDB0057D740 /* MainWindow.xib in Resources */,
+				45C99F6F17729DDB0057D740 /* PhoneConfViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C99F4D17729DDB0057D740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C99F6217729DDB0057D740 /* main.m in Sources */,
+				45C99F6617729DDB0057D740 /* PhoneConfAppDelegate.m in Sources */,
+				45C99F6C17729DDB0057D740 /* PhoneConfViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45C99F5E17729DDB0057D740 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C99F5F17729DDB0057D740 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45C99F6717729DDB0057D740 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C99F6817729DDB0057D740 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		45C99F6D17729DDB0057D740 /* PhoneConfViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C99F6E17729DDB0057D740 /* en */,
+			);
+			name = PhoneConfViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C99F7017729DDB0057D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45C99F7117729DDB0057D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45C99F7317729DDB0057D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneConf/PhoneConf-Prefix.pch";
+				INFOPLIST_FILE = "PhoneConf/PhoneConf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45C99F7417729DDB0057D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneConf/PhoneConf-Prefix.pch";
+				INFOPLIST_FILE = "PhoneConf/PhoneConf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C99F4B17729DDA0057D740 /* Build configuration list for PBXProject "PhoneConf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C99F7017729DDB0057D740 /* Debug */,
+				45C99F7117729DDB0057D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C99F7217729DDB0057D740 /* Build configuration list for PBXNativeTarget "PhoneConf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C99F7317729DDB0057D740 /* Debug */,
+				45C99F7417729DDB0057D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C99F4817729DDA0057D740 /* Project object */;
+}
