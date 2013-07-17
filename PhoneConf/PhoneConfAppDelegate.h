@@ -10,10 +10,15 @@
 
 @class PhoneConfViewController;
 
-@interface PhoneConfAppDelegate : NSObject <UIApplicationDelegate>
+@interface PhoneConfAppDelegate : NSObject <UIApplicationDelegate> {
+    UIView *_ConferenceOption;
+}
+
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @property (nonatomic, retain) IBOutlet PhoneConfViewController *viewController;
+
+@property (nonatomic, retain) IBOutlet UIView *ConferenceOption;
 
 @end

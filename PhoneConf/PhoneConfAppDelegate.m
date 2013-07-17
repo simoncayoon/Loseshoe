@@ -14,6 +14,7 @@
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize ConferenceOption = _ConferenceOption;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -21,6 +22,7 @@
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -67,6 +69,7 @@
 {
     [_window release];
     [_viewController release];
+    [_ConferenceOption release];
     [super dealloc];
 }
 

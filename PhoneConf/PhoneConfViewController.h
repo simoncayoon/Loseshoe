@@ -7,7 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainTabCtl.h"
 
-@interface PhoneConfViewController : UIViewController
+
+@interface PhoneConfViewController : UIViewController{
+    UIButton* loginBtn;
+    MainTabCtl* tabController;
+    
+    UITextField* usrName;
+    UITextField* passWrd;
+    
+}
+@property(nonatomic, retain) MainTabCtl* tabController;
+@property(nonatomic, retain)IBOutlet UITextField* usrName;
+@property(nonatomic, retain)IBOutlet UITextField* passWrd;
+
+
+-(IBAction)login:(id)sender;
+-(IBAction)hidekeyboard:(NSSet *)touches withEvent:(UIEvent *)event;
+
 
 @end
